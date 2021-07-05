@@ -10,4 +10,6 @@ v1 = input("Enter a Verb: ")
 person = input("Enter a noun (person or animal): ")
 
 
-print("I'm going to "  + place + " to eat " + adj1 + " " + food)
+print("I'm going to the "  + place + " to eat " + adj1 + " " + food + " and " + v1 + " with my " + person + ".")
+
+print(f"I'm going to the {place} to eat {adj1} {food} and {v1} with my {person}.")
